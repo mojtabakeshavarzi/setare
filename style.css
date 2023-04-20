@@ -1,0 +1,130 @@
+@font-face {
+    font-family:'bnazanin' ;
+    src: url(fonts/B-NAZANIN.TTF);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+.store-cats
+{
+    font-size: small;
+}
+.book-list-section {
+    margin: 0 !important; }
+  
+  .book-list-section a {
+    text-decoration: none;
+    color: black; }
+  
+  .book-list-section h2 {
+    font-family: Golpayegani, sans-serif;
+    display: inline; }
+  
+  .book-list-section mark {
+    background-color: #F36D21;
+    color: white;
+    padding: 0; }
+  
+  .section-title {
+    font-size: 26px; }
+  
+  .view-more-arrow {
+    width: 20px; }
+  
+  .book-title-carousel,
+  .author-title-carousel,
+  .news-title-carousel {
+    font-size: 12px;
+    color: #313131;
+    font-weight: 500; }
+  
+  .news-title-carousel {
+    text-align: right; }
+
+  .list-books > div {
+    padding-left: 12px; }
+  
+  .list-books > div:first-child {
+    padding-right: 0 !important; }
+  
+  .list-books > div:last-child {
+    padding-left: 0 !important; }
+  
+  .list-books .book-title-carousel {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: fit-content;
+    margin: 0 auto;
+    max-width: 180px; }
+  
+  .list-books img {
+    width: 186px;
+    height: 286px;
+    background-size: cover;
+
+    background: url(/assets/img/placeholders/book-flat.jpg) no-repeat scroll center center;
+    background-size: 100%; }
+  
+  .title-container::-webkit-scrollbar {
+    display: none;
+}
+
+  .title-container {
+    overflow: scroll;
+    -ms-overflow-style: none;
+
+    scrollbar-width: none;
+ }
+
+  .book-title-carousel {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; }
+.text
+{
+    font-size: medium;
+    color: #000000;
+}
+.stext
+{
+    font-size: medium;
+    color: #6b5858;
+}
+.item a
+{
+  
+  text-decoration: none;
+   color: black;
+   font-size: small;
+}
+.item img
+{
+  padding: 20px;
+}
+.item img:hover
+{
+  transform: scale(1.3);
+  
+}
+.store-cats
+{
+  -webkit-box-shadow: -9px 10px 24px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 10px 24px 1px rgba(0,0,0,0.75);
+box-shadow: -9px 10px 24px 1px rgba(0,0,0,0.75);
+}
+.col-md-4:hover
+{
+  transform: scale(1.1);
+  
+}
